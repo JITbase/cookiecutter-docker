@@ -1,6 +1,6 @@
 FROM python:3.9-slim
 
-ENV COOKIECUTTER_VERSION 1.7.2
+ARG COOKIECUTTER_VERSION=1.7.2
 
 RUN apt update && apt install -y git && \
     pip install cookiecutter==$COOKIECUTTER_VERSION && \
