@@ -12,5 +12,5 @@ The repository is used to have a Docker version of Cookiecutter CLI
 docker run --rm -it -v `pwd`:`pwd` -w `pwd` -it jitbasedevelopers/cookiecutter:latest <git or folder of template>
 ```
 
-Note: If your git is private, use HTTPS url, a prompt will ask for your credentials
-Note 2: If you use folder template, don't forget to mount folder in docker container (`-v` arg)
+- Note: If your git is private, use HTTPS url, a prompt will ask for your credentials
+- Note (bis): If you use folder template, don't forget to mount folder in docker container (`-v` arg)
